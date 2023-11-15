@@ -1,2 +1,2 @@
-# Multi-hypotheses-based-Curriculum-Learning-for-Semi-supervised-Automatic-Speech-Recognition
+# MOCA
 Multi-hypotheses-based Curriculum Learning for Semi-supervised Automatic Speech Recognition
