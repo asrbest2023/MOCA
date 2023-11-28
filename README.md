@@ -34,8 +34,6 @@ The datasets are available at (https://drive.google.com/drive/folders/1RSyw6aExa
 |        **Dataset**        |                  **Path**                   | 
 |:-------------------------:|:-------------------------------------------:| 
 |       **LJSpeech**        |           `Datasets/LJSpeech-1.1`           | 
-| **LibriSpeech-dev-clean** |            `Datasets/dev-clean`             |
-| **LibriSpeech-test-clean**|           `Datasets/test-clean`            |
 
 ## How to Run
 You can run the demo script in the directory by the following code.
