@@ -29,11 +29,13 @@ We recommend using the following versions of packages:
 - `onnxruntime>=1.15.0`
 
 ## Data Overview
+The datasets are available at (https://drive.google.com/drive/folders/1RSyw6aExar_5Li_j2Jy59q_IfErLkNH1?usp=share_link).
+
 |        **Dataset**        |                  **Path**                   | 
 |:-------------------------:|:-------------------------------------------:| 
 |       **LJSpeech**        |           `Datasets/LJSpeech-1.1`           | 
 | **LibriSpeech-dev-clean** |            `Datasets/dev-clean`             |
-
+| **LibriSpeech-test-clean**|           `Datasets/test-clean`            |
 
 ## How to Run
 You can run the demo script in the directory by the following code.
