@@ -1,4 +1,4 @@
-# Multi-hypotheses-based Curriculum Learning for Semi-supervised Automatic Speech Recognition
+# Accurate Semi-supervised Automatic Speech Recognition via Multi-hypotheses-based Curriculum Learning
 
 This is the code repository for Multi-hypotheses-based Curriculum Learning for Semi-supervised Automatic Speech Recognition.
 This includes the implementation of MOCA (**M**ulti-hyp**O**theses-based **C**urriculum learning for semi-supervised **A**SR),
