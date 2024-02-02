@@ -6,16 +6,9 @@ our novel approach for semi-supervised automatic speech recognition (ASR).
 
 ## Abstract
 How can we accurately transcribe speech signals into texts when only a portion of them are annotated?
-ASR systems are extensively utilized in many real-world applications including automatic translation systems and transcription services.
-Due to the exponential growth of available speech data without annotations and the significant costs of manual labeling, semi-supervised automatic speech recognition (ASR) approaches have garnered attention. 
-Such scenarios include transcribing videos in streaming platforms, where a vast amount of content is uploaded daily but only a fraction of them are transcribed manually.
-Previous approaches for semi-supervised ASR use a pseudo-labeling scheme to incorporate unlabeled examples during training.
-% However, their performance is limited since they fail to consider the uncertainty associated with the pseudo labels when employing them as labels for unlabeled instances.
+ASR (Automatic Speech Recognition) systems are extensively utilized in many real-world applications including automatic translation systems and transcription services. Due to the exponential growth of available speech data without annotations and the significant costs of manual labeling, semi-supervised ASR approaches have garnered attention. Such scenarios include transcribing videos in streaming platforms, where a vast amount of content is uploaded daily but only a fraction of them are transcribed manually. Previous approaches for semi-supervised ASR use a pseudo labeling scheme to incorporate unlabeled examples during training.
 Nevertheless, their effectiveness is restricted as they do not take into account the uncertainty linked to the pseudo labels when using them as labels for unlabeled cases.
-In this paper, we propose MOCA (**M**ulti-hyp**O**theses-based **C**urriculum learning for semi-supervised **A**SR), an accurate framework for semi-supervised ASR.
-MOCA generates multiple hypotheses for each speech instance to consider the uncertainty of the pseudo label.
-Furthermore, MOCA considers the various degree of uncertainty in pseudo labels across speech instances, enabling a robust training on the uncertain dataset.
-Extensive experiments on real-world speech datasets show that MOCA successfully improves the transcription performance of previous ASR models.
+In this paper, we propose MOCA (Multi-hypOtheses-based Curriculum learning for semi-supervised ASR), an accurate framework for semi-supervised ASR. MOCA generates multiple hypotheses for each speech instance to consider the uncertainty of the pseudo label. Furthermore, MOCA considers the various degree of uncertainty in pseudo labels across speech instances, enabling a robust training on the uncertain dataset. Extensive experiments on real-world speech datasets show that MOCA successfully improves the transcription performance of previous ASR models.
 
 ## Requirements
 
